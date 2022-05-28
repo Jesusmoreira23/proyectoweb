@@ -1,0 +1,77 @@
+body{
+    margin-left: auto;
+    margin-right: auto;
+     font-family: "Open Sans", "sans-serif";
+     font-size: 1.2cn;
+     margin-top: 0;
+     margin-bottom: 0;
+     background-image: url(jue.jpg);
+     background-size: cover;
+}
+.contenido{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, 0.466);
+    padding-left: 1em;
+    padding-right: 1em;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+:root{
+    --primario: #ffcd8fc2;
+    --claro: #f0e5d9;
+    --fondo: #ECE5C7;
+}
+.cabecera{
+    background-color: var(--primario);
+    padding: 10px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    color: var(--claro);
+}
+.pago{
+background-color: var(--fondo);
+padding-bottom: 30px;
+border-radius: 20px;
+margin-top: 20px;
+text-align: center;
+padding-top: 10px;
+padding-left: 15px;
+padding-right: 15px;
+}
+.pago p{
+    text-align: justify;
+}
+
+.pago a{
+    background-color: #FFCC8F;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 4px 4px 15px #000000;
+    text-decoration: none;
+    color: rgb(59, 52, 52);
+    margin-top: 3em;
+}
+.pago a:hover{
+    background-color: var(--primario);
+    color: var(--fondo);
+    box-shadow: 1px 1px 20px #000000;
+}
+footer{
+    background-color: rgba(241, 175, 175, 0.582);
+    padding: 10px;
+    text-align: center;
+    color:rgb(59, 52, 52);
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+article{
+    text-align: justify;
+}
+article h2{
+    color: blue;
+}
